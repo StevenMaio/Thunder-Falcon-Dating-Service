@@ -1,0 +1,36 @@
+README FOR DBUtils.java
+
+1. Manager-Level Transactions
+1.1 createEmployee, editEmployee, deleteEmployee
+1.2 generateMonthlyReport
+1.3 getComprehensiveCustomerList // REDO TODO:
+1.4 getPendingDates, getPastDates, getDateFromCalendar
+1.5 getPendingDates, getPastDates, getDateFromCalendar
+1.6 getHighestGrossingEmployees
+1.7 getHighestGrossingCustomers
+1.8 getMostActiveProfiles
+1.9 getDatingObjects
+1.10 getHighlyRatedProfiles
+1.11 getHighestCalendarDate
+
+2. Customer-Representative-Level Transactions
+2.1 createCustomerDate // with custRep
+2.2 registerCustomer, editProfile, deleteProfile
+2.3 getMailingList
+2.4 createSuggestion
+
+3. Customer-Level Transactions
+3.1 createCustomerDate // without custRep
+3.2 createGeoDate
+3.3 cancelDates
+3.4 writeComment
+3.5 like
+3.6 createReferredDate
+3.7 getPendingDates
+3.8 getPastDates
+3.9 getFavourites
+3.10 search // TODO:
+3.11 getMostActiveProfiles
+3.12 getHighlyRatedProfiles
+3.13 getPopularLocations
+3.14 getSuggestedBy
